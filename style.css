@@ -1,0 +1,44 @@
+body {
+    background: linear-gradient(to right, #eef2f3, #8e9eab);
+    font-family: Arial, sans-serif;
+}
+
+.sidebar {
+    height: 100vh; /* Full-height sidebar */
+    padding-top: 20px;
+}
+
+.sidebar-heading {
+    padding: 15px;
+    font-size: 1.25em;
+    color: #333;
+    border-bottom: 1px solid #ccc; /* Add a border to separate the heading */
+}
+
+.nav-link {
+    padding: 10px 15px; /* Increase padding for nav links */
+    color: #333; /* Nav link color */
+}
+
+.nav-link:hover {
+    background-color: #007bff; /* Highlight on hover */
+    color: white; /* Change text color on hover */
+}
+
+.main {
+    padding: 20px; /* Main content padding */
+}
+
+h1 {
+    color: #333;
+    text-align: center; /* Center the heading */
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
